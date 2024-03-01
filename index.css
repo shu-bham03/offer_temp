@@ -1,0 +1,117 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: ; */
+}
+
+section{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 600px; */
+}
+
+main{
+    width: 1000px;
+}
+
+.title{
+    color: #ff6b82;
+    margin: 10px 20px;
+    font-size: 35px;
+}
+
+.off{
+    background-color: #ff6b82;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* .box1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px  solid grey;
+    padding: 40px;
+    margin: 40px;
+} */
+
+.box2{
+    border: 2px  solid rgb(145, 144, 144);
+    padding: 40px;
+    margin: 40px;
+    height: 20px;
+    /* width: 500px; */
+    overflow: hidden;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.dark{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grey{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.orange{
+    color: #ff6b82;
+    font-size: 25px;
+}
+.price{
+    font-size: 20px;
+}
+
+input[type=radio]{
+    /* accent-color: #ff6b82; */
+    accent-color: #ff0000;
+}
+select{
+    width: 100px;
+    height: 50px;
+    font-size:20px;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 22px;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sec{
+    margin: 40px;
+}
+
+.sec-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-in-sec{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 20px;
+    background-color: #ff6b82;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+}
+
